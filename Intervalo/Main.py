@@ -41,7 +41,7 @@ def main():
         
         if inicio == i and inicio > 1:
             primos += "\n" + str (inicio) 
-        else:
+    if primos == "":
             primos += "intervalo sem primos"    
 
     print("Primos: ", primos)
